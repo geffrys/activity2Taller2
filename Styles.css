@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: cornflowerblue;
+}
+
+
+/* referentes al contenedor del formulario para centrarlo */
+
+main{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    width: 100%;
+    flex-direction: column;
+}
+
+.mainFormContent .title{
+    margin: 30px 0 ;
+}
+
+.mainFormContent{
+    margin-top: 200px;
+    text-align: center;
+    border: 1px solid black;   
+    /* margin-top: 100px; */
+    width: 500px;
+    height: 300px;
+    border-radius: 60px;
+    background-color: white;
+    
+}
+
+.mainFormContent form {
+    display: flex;
+    flex-direction: column;
+}
+.mainFormContent form *{
+    display: block;
+    margin: 0 auto;
+}
+.mainFormContent input{
+    margin: 10px 0 ;
+}
+
+
+
+.resultContent{
+    margin-top: 200px;
+        text-align: center;
+        border: 1px solid black;
+        /* margin-top: 100px; */
+        width: 500px;
+        height: 500px;
+        border-radius: 60px;
+        background-color: white;
+}
+
+
